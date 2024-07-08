@@ -1,11 +1,4 @@
-res://Bullet.gd
+res://survivors_game.tscn
 res://gun.tscn
 res://gun.gd
-res://bullet.tscn
-res://survivors_game.tscn
 res://player.tscn
-res://mob.tscn
-res://pine_tree.tscn
-res://Mob.gd
-res://player.gd
-res://survivors_game.gd

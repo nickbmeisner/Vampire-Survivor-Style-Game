@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2pix23ee0rgp"]
+
+[ext_resource type="Script" path="res://exp_shard.gd" id="1_tmgqo"]
+[ext_resource type="Texture2D" uid="uid://c48aubnjv2ny7" path="res://experience_shards/blue_exp.png" id="2_pcqqg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s4rra"]
+
+[node name="exp_shard" type="Area2D"]
+collision_layer = 0
+script = ExtResource("1_tmgqo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_s4rra")
+
+[node name="BlueExp" type="Sprite2D" parent="."]
+position = Vector2(6, 1)
+scale = Vector2(0.23125, 0.23125)
+texture = ExtResource("2_pcqqg")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

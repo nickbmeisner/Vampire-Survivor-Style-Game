@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var health = 3
+var speed = 175
 
 @onready var player = get_node("/root/Game/Player")
 
@@ -9,7 +10,7 @@ func _ready():
 
 func _physics_process(delta):
 	var direction = global_position.direction_to(player.global_position)
-	velocity = direction * 300.0
+	velocity = direction * speed
 	move_and_slide()
 	
 func take_damage():
@@ -23,3 +24,14 @@ func take_damage():
 		var smoke = SMOKE_SCENE.instantiate()
 		get_parent().add_child(smoke)
 		smoke.global_position = global_position
+		
+		const EXP_SHARD_1 = preload("res://exp_shard_1.tscn")
+		const EXP_SHARD_5 = preload("res://exp_shard_5.tscn")
+		
+		var exp = EXP_SHARD_1.instantiate()
+		
+		if (randi() % 51) > 48:
+			exp = EXP_SHARD_5.instantiate()
+			
+		get_parent().add_child(exp)
+		exp.global_position = global_position

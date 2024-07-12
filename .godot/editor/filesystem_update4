@@ -1,4 +1,13 @@
 res://survivors_game.tscn
 res://gun.tscn
-res://gun.gd
+res://mob.tscn
+res://pine_tree.tscn
+res://bullet.tscn
 res://player.tscn
+res://exp_shard.tscn
+res://exp_shard.gd
+res://player.gd
+res://Mob.gd
+res://exp_shard_5.tscn
+res://exp_shard_1.tscn
+res://exp_shard_5.gd

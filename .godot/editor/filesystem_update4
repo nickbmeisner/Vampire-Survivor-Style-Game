@@ -11,3 +11,5 @@ res://Mob.gd
 res://exp_shard_5.tscn
 res://exp_shard_1.tscn
 res://exp_shard_5.gd
+res://Bullet.gd
+res://survivors_game.gd

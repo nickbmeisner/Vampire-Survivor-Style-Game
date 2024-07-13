@@ -28,10 +28,10 @@ func take_damage():
 		const EXP_SHARD_1 = preload("res://exp_shard_1.tscn")
 		const EXP_SHARD_5 = preload("res://exp_shard_5.tscn")
 		
-		var exp = EXP_SHARD_1.instantiate()
+		var experience = EXP_SHARD_1.instantiate()
 		
 		if (randi() % 51) > 48:
-			exp = EXP_SHARD_5.instantiate()
+			experience = EXP_SHARD_5.instantiate()
 			
-		get_parent().add_child(exp)
-		exp.global_position = global_position
+		get_parent().add_child(experience)
+		experience.global_position = global_position

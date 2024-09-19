@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://bks7pff3ec8we"]
+
+[ext_resource type="Script" path="res://Spray.gd" id="1_oxl2h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v82d2"]
+radius = 817.414
+
+[node name="Spray" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_oxl2h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_v82d2")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.625
+autostart = true
+
+[node name="ShootingPoint" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -40)
+rotation = 0.000240269
+
+[node name="ShootingPoint2" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(40, 0)
+rotation = 0.000240269
+
+[node name="ShootingPoint3" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, 40)
+rotation = 0.000240269
+
+[node name="ShootingPoint4" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-40, 0)
+rotation = 0.000240269
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

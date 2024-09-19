@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtrqb7dnpbahd"]
+
+[ext_resource type="Script" path="res://Spin_Bullet.gd" id="1_4qcea"]
+[ext_resource type="Texture2D" uid="uid://bqc1wpoe2sig6" path="res://Weapons and Projectiles/Spin_Bullet.png" id="2_s0124"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_675n8"]
+radius = 17.0294
+
+[node name="Spin_Bullet" type="Area2D"]
+top_level = true
+collision_layer = 0
+collision_mask = 3
+script = ExtResource("1_4qcea")
+
+[node name="SpinBullet" type="Sprite2D" parent="."]
+position = Vector2(0, 4.76837e-07)
+scale = Vector2(0.0683333, 0.0683333)
+texture = ExtResource("2_s0124")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_675n8")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

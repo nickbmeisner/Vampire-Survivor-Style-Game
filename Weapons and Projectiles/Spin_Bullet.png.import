@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dftkbqwsfd68r"
-path="res://.godot/imported/projectile.png-e03ae856d530df914009475206433400.ctex"
+uid="uid://bqc1wpoe2sig6"
+path="res://.godot/imported/Spin_Bullet.png-ca02e638134b4e4a538e37d632d0bade.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pistol/projectile.png"
-dest_files=["res://.godot/imported/projectile.png-e03ae856d530df914009475206433400.ctex"]
+source_file="res://Weapons and Projectiles/Spin_Bullet.png"
+dest_files=["res://.godot/imported/Spin_Bullet.png-ca02e638134b4e4a538e37d632d0bade.ctex"]
 
 [params]
 

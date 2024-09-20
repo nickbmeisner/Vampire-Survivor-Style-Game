@@ -1,3 +1,6 @@
+Button
+VBoxContainer
+MarginContainer
 Control
 CanvasLayer
 Label
@@ -9,7 +12,3 @@ CharacterBody2D
 ColorRect
 Timer
 PathFollow2D
-Path2D
-Camera2D
-Marker2D
-StaticBody2D

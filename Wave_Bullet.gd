@@ -1,11 +1,12 @@
 extends Area2D
 
 var travelled_distance = 0
-var damage = 9
+var damage = 16
+var knockback = 35
 
 func _physics_process(delta):
-	const SPEED = 625
-	const RANGE = 500
+	const SPEED = 800
+	const RANGE = 600
 	
 	var direction = Vector2.RIGHT.rotated(rotation)
 	position += direction * SPEED * delta
@@ -16,6 +17,11 @@ func _physics_process(delta):
 
 
 func _on_body_entered(body):
-	queue_free()
+	if body.has_method("knock_back"):
+		body.knock_back(knockback)
+	
 	if body.has_method("take_damage"):
 		body.take_damage(damage)
+		damage -= 2
+		if damage <= 0:
+			queue_free()

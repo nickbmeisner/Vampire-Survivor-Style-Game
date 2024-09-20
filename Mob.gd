@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var health = 3
+var health = 25
 var speed = 175
 
 @onready var player = get_node("/root/Game/Player")
@@ -17,7 +17,7 @@ func take_damage(dmg):
 	health -= dmg
 	%Slime.play_hurt()
 	
-	if health == 0:
+	if health <= 0:
 		queue_free()
 		
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
@@ -35,3 +35,7 @@ func take_damage(dmg):
 			
 		get_parent().add_child(experience)
 		experience.global_position = global_position
+
+func knock_back(knck):
+		var direction = global_position.direction_to(player.global_position)
+		global_position = global_position - (direction * knck) 

@@ -1,32 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726722750
+::res://::1726796941
 Bullet.gd::GDScript::-1::1726721925::0::1::::<>Area2D<>::
-bullet.tscn::PackedScene::6502030393706350512::1726722719::0::1::::<><>::res://Bullet.gd<>uid://dftkbqwsfd68r::::res://Weapons and Projectiles/projectile.png
+bullet.tscn::PackedScene::6502030393706350512::1726760436::0::1::::<><>::res://Bullet.gd<>uid://dftkbqwsfd68r::::res://Weapons and Projectiles/projectile.png
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
-exp_shard.gd::GDScript::-1::1720766450::0::1::::<>Area2D<>::
-exp_shard_1.tscn::PackedScene::4313013399005883431::1726721963::0::1::::<><>::res://exp_shard.gd<>uid://c48aubnjv2ny7::::res://experience_shards/blue_exp.png
+exp_shard.gd::GDScript::-1::1726755741::0::1::::<>Area2D<>::
+exp_shard_1.tscn::PackedScene::4313013399005883431::1726760436::0::1::::<><>::res://exp_shard.gd<>uid://c48aubnjv2ny7::::res://experience_shards/blue_exp.png
 exp_shard_5.gd::GDScript::-1::1726720226::0::1::::<>Area2D<>::
-exp_shard_5.tscn::PackedScene::8193480196737812335::1726721963::0::1::::<><>::res://exp_shard_5.gd<>uid://dgx2ah1sp7bod::::res://experience_shards/red_exp2.png
+exp_shard_5.tscn::PackedScene::8193480196737812335::1726760436::0::1::::<><>::res://exp_shard_5.gd<>uid://dgx2ah1sp7bod::::res://experience_shards/red_exp2.png
 gun.gd::GDScript::-1::1720422309::0::1::::<>Area2D<>::
-gun.tscn::PackedScene::342823963803277001::1726721962::0::1::::<><>::res://gun.gd
+gun.tscn::PackedScene::342823963803277001::1726757757::0::1::::<><>::res://gun.gd
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1718946526::1::::<><>::
-Mob.gd::GDScript::-1::1726721925::0::1::::<>CharacterBody2D<>::
-mob.tscn::PackedScene::2521725858502620028::1726721963::0::1::::<><>::res://Mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
-pine_tree.tscn::PackedScene::4321672433399186868::1726721963::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
-player.gd::GDScript::-1::1720764624::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1497520314620647493::1726721963::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://bks7pff3ec8we::::res://spray.tscn
+Mob.gd::GDScript::-1::1726760142::0::1::::<>CharacterBody2D<>::
+mob.tscn::PackedScene::2521725858502620028::1726760436::0::1::::<><>::res://Mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
+pine_tree.tscn::PackedScene::4321672433399186868::1726760436::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
+player.gd::GDScript::-1::1726756677::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1497520314620647493::1726761316::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://dkdy7brfxn80r::::res://wave.tscn<>uid://co8acg8kj7mpi::::res://spin.tscn<>uid://bks7pff3ec8we::::res://spray.tscn<>uid://e5ci4iqwp642::::res://gun.tscn
 ProgressBar2.gd::GDScript::-1::1720682903::0::1::::<>ProgressBar<>::
-spin.gd::GDScript::-1::1726720847::0::1::::<>Area2D<>::
-spin.tscn::PackedScene::5823613582376737862::1726721963::0::1::::<><>::res://spin.gd
-Spin_Bullet.gd::GDScript::-1::1726721419::0::1::::<>Area2D<>::
-spin_bullet.tscn::PackedScene::8528919445691465929::1726722719::0::1::::<><>::res://Spin_Bullet.gd<>uid://dftkbqwsfd68r::::res://Weapons and Projectiles/projectile.png
+slash.tscn::PackedScene::2235054187610471048::1726757543::0::1::::<><>::res://gun.gd
+spin.gd::GDScript::-1::1726728645::0::1::::<>Area2D<>::
+spin.tscn::PackedScene::5823613582376737862::1726760436::0::1::::<><>::res://spin.gd
+Spin_Bullet.gd::GDScript::-1::1726755310::0::1::::<>Area2D<>::
+spin_bullet.tscn::PackedScene::8528919445691465929::1726760436::0::1::::<><>::res://Spin_Bullet.gd<>uid://bqc1wpoe2sig6::::res://Weapons and Projectiles/Spin_Bullet.png
 Spray.gd::GDScript::-1::1726719983::0::1::::<>Area2D<>::
-spray.tscn::PackedScene::3127437921942028676::1726721963::0::1::::<><>::res://Spray.gd
-spray_bullet.gd::GDScript::-1::1726721962::0::1::::<>Area2D<>::
-spray_bullet.tscn::PackedScene::4763237516437081240::1726722719::0::1::::<><>::res://spray_bullet.gd<>uid://dftkbqwsfd68r::::res://Weapons and Projectiles/projectile.png
+spray.tscn::PackedScene::3127437921942028676::1726760436::0::1::::<><>::res://Spray.gd
+spray_bullet.gd::GDScript::-1::1726724954::0::1::::<>Area2D<>::
+spray_bullet.tscn::PackedScene::4763237516437081240::1726760436::0::1::::<><>::res://spray_bullet.gd<>uid://dftkbqwsfd68r::::res://Weapons and Projectiles/projectile.png
 survivors_game.gd::GDScript::-1::1720784631::0::1::::<>Node2D<>::
-survivors_game.tscn::PackedScene::7475306444692800017::1726721962::0::1::::<><>::uid://vln68s4lxy74::::res://player.tscn<>res://survivors_game.gd<>uid://b2tpkwqyam4r5::::res://pine_tree.tscn
+survivors_game.tscn::PackedScene::7475306444692800017::1726760436::0::1::::<><>::uid://vln68s4lxy74::::res://player.tscn<>res://survivors_game.gd<>uid://b2tpkwqyam4r5::::res://pine_tree.tscn
 Upgrades.tscn::PackedScene::8402196355522698322::1726721963::0::1::::<><>::
+Wave.gd::GDScript::-1::1726758756::0::1::::<>Area2D<>::
+wave.tscn::PackedScene::7868858052996646175::1726760436::0::1::::<><>::res://Wave.gd
+Wave_Bullet.gd::GDScript::-1::1726760142::0::1::::<>Area2D<>::
+wave_bullet.tscn::PackedScene::993645573774274682::1726760437::0::1::::<><>::res://Wave_Bullet.gd<>uid://cbil4lsuhv7js::::res://Weapons and Projectiles/Wave.png
 ::res://addons/::1726722603
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::
@@ -62,10 +67,11 @@ smoke_explosion.gdshader::Shader::-1::1695668179::0::1::::<><>::
 smoke_explosion.tscn::PackedScene::7675803860678853612::1695668179::0::1::::<><>::res://smoke_explosion/smoke_explosion.gdshader<>res://smoke_explosion/smoke_explosion.gd
 ::res://trees/::1718946526
 pine_tree.png::CompressedTexture2D::4806194308614878228::1695668179::1718946526::1::::<><>::
-::res://Weapons and Projectiles/::1726722750
+::res://Weapons and Projectiles/::1726761309
 pistol.png::CompressedTexture2D::6081771334990092076::1695668179::1726722719::1::::<><>::
 projectile.png::CompressedTexture2D::7550039277502144023::1695668179::1726722719::1::::<><>::
 Spin_Bullet.png::CompressedTexture2D::3515189676383628235::1726722693::1726722751::1::::<><>::
+Wave.png::CompressedTexture2D::4860265514482642396::1726756932::1726756938::1::::<><>::
 ::res://Weapons and Projectiles/impact/::1726722719
 circle.png::CompressedTexture2D::8141367643636554889::1695668179::1726722719::1::::<><>::
 impact.gd::GDScript::-1::1695668179::0::1::::<>Node2D<>::

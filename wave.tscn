@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkdy7brfxn80r"]
+
+[ext_resource type="Script" path="res://Wave.gd" id="1_h7d01"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v82d2"]
+radius = 817.414
+
+[node name="Wave" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_h7d01")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_v82d2")
+
+[node name="WeaponPivot" type="Marker2D" parent="."]
+rotation = 0.000240269
+
+[node name="ShootingPoint" type="Marker2D" parent="WeaponPivot"]
+unique_name_in_owner = true
+position = Vector2(150, 0.963962)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

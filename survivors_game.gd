@@ -25,3 +25,7 @@ func _on_player_health_depleted():
 	%GameOver.visible = true
 	get_tree().paused = true
 	
+func _on_player_level_up():
+	%Level_Up.visible = false
+	get_tree().paused = false
+	

@@ -2,7 +2,7 @@ extends Area2D
 
 var d = 0
 var anchor = 0
-var damage = 1
+var damage = 13
 var speed = 0.03
 var range = 250
 

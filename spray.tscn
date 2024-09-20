@@ -14,7 +14,7 @@ script = ExtResource("1_oxl2h")
 shape = SubResource("CircleShape2D_v82d2")
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.625
+wait_time = 0.75
 autostart = true
 
 [node name="ShootingPoint" type="Marker2D" parent="."]
